@@ -3,7 +3,7 @@
 |  ----  | ----  |
 | Name  | BRC721Auto |
 | Description  | Fully Autonomous Generative Art Protocol on Bitcoin |
-| Discussion-to | [link] |
+| Discussion-to | [https://bitcointalk.org/index.php?topic=5459410] |
 | Category | Ordinals |
 
 
