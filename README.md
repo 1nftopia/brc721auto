@@ -14,7 +14,7 @@ We propose a new standard for Ordinal NFTs, which leverages Recursive Inscriptio
 Generative art refers to artworks entirely created by autonomous systems, which include three important components: code for the automatic generation of graphics, code execution for personalized rendering, and automatic verification of the correctness of the generated results. Due to Ethereum's expensive on-chain execution fees, generative art on Ethereum is not fully on-chain. Although the code is recorded on Ethereum, both the code execution and result verification process are performed by off-chain tools. However, with the development of Bitcoin's Recursive Inscription technology, Bitcoin has developed an infrastructure that can execute on-chain code at a low cost and complete real-time personalized rendering, paving the way for fully on-chain generative art that is not controlled by anyone.
 
 ## Specifics
-The fully on-chain generative art proposed by BRC721Auto is composed of at least two inscriptions: one is the inscription of the code, and the other is the inscription of personalized parameters. Among these,
+The fully on-chain generative art proposed by BRC721Auto is composed of at least two inscriptions: one is the inscription of the code, and the other is the inscription of personalized parameters.
 
 ### Code Inscription
 
