@@ -11,7 +11,16 @@
 We propose a new standard for Ordinal NFTs, which leverages Recursive Inscription to cost-effectively create fully on-chain generative art that is not controlled by anyone.
 
 ## Motivation
-Generative art refers to artworks entirely created by autonomous systems, which include three important components: code for the automatic generation of graphics, code execution for personalized rendering, and automatic verification of the correctness of the generated results. Due to Ethereum's expensive on-chain execution fees, generative art on Ethereum is not fully on-chain. Although the code is recorded on Ethereum, both the code execution and result verification process are performed by off-chain tools. However, with the development of Bitcoin's Recursive Inscription technology, Bitcoin has developed an infrastructure that can execute on-chain code at a low cost and complete real-time personalized rendering, paving the way for fully on-chain generative art that is not controlled by anyone.
+Generative art refers to artworks entirely created by autonomous systems.
+
+Fully on-chain generative art needs to satisfy the following three laws:
+- Decentralized storage of the code that automatically generates graphics
+- Decentralized execution of code based on user-provided parameters for personalized graphic generation
+- Decentralized verification of the correctness of the generated results
+
+Based on this, we can determine that ArtBlock on Ethereum is not fully on-chain generative art. Although its core code is stored on Ethereum, the libraries required for code execution are not on-chain, and the processes of code execution and result verification are both carried out by off-chain tools.
+
+However, with the development of Bitcoin's Recursive Inscription technology, Bitcoin has developed an infrastructure that can execute on-chain code at low cost and complete real-time rendering. This paves the way for fully on-chain generative art, leading to the birth of BRC721Auto. Unless someone launches a 51% attack on Bitcoin, this fully on-chain generative art will be permanently and constantly preserved.
 
 ## Specifics
 The fully on-chain generative art proposed by BRC721Auto is composed of at least two inscriptions: one is the inscription of the code, and the other is the inscription of personalized parameters.
